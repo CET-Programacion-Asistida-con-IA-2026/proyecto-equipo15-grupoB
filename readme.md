@@ -46,9 +46,9 @@ El moodboard del proyecto combina una paleta de colores navy, magenta y teal, co
 
 #### 🧩 Archivos generados con asistencia de IA
 
-- `index.html`
-- `style.css`
-- `script.js`
+- `index.html [primerpaso_sin_css.html](https://github.com/user-attachments/files/28858478/primerpaso_sin_css.html)
+- `style.css` [primerpaso.css](https://github.com/user-attachments/files/28858529/primerpaso.css)
+- `script.js` [primerpaso.js](https://github.com/user-attachments/files/28858548/primerpaso.js)
 
 ---
 
