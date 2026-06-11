@@ -1,6 +1,6 @@
 # PrimerPaso 🚀
 
-**Grupo B** (Grupo de 19 a 21hs) — Equipo 15
+**Grupo B** (Grupo de 19 a 21hs) — Equipo 15b TEMÁTICA TRABAJO
 Curso de Programación Asistida con IA - Chicas en Tecnología
 
 ---
