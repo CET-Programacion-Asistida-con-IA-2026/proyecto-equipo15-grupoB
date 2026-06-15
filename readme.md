@@ -44,6 +44,7 @@ Desarrollamos **PrimerPaso**, un sitio web one-page orientado a jóvenes que bus
 
 El moodboard del proyecto combina una paleta de colores navy, magenta y teal, con tipografía moderna y un estilo profesional orientado a jóvenes.
 
+<img width="3750" height="3000" alt="_mooboard grupo 15b" src="https://github.com/user-attachments/assets/e5ccbcc5-d2a6-45fb-a7e5-9b766212cda0" />
 
 
 
