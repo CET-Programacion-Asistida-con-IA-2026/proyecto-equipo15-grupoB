@@ -1,0 +1,88 @@
+/* =====================
+   VARIABLES DE COLOR
+   ===================== */
+:root {
+  --color-primario: #1a2744;   /* azul navy oscuro */
+  --color-acento: #e8177a;     /* magenta/rosa vibrante */
+  --color-teal: #2abfab;       /* verde teal */
+  --color-gris: #f2f2f2;       /* fondo gris claro */
+  --color-texto: #1a1a1a;      /* texto oscuro */
+  --color-blanco: #ffffff;
+}
+
+/* =====================
+   BASE
+   ===================== */
+body {
+  font-family: 'Trebuchet MS', sans-serif; /* aproximación a Etna Sans Serif */
+  background-color: var(--color-gris);
+  color: var(--color-texto);
+  margin: 0;
+  padding: 0;
+}
+
+/* =====================
+   HEADER
+   ===================== */
+header {
+  background-color: var(--color-primario);
+  padding: 20px 40px;
+}
+
+header h1 {
+  color: var(--color-blanco);
+  margin: 0;
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+/* =====================
+   SECCIONES
+   ===================== */
+section {
+  background-color: var(--color-blanco);
+  margin: 30px 40px;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+section h2 {
+  color: var(--color-primario);
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+section p {
+  color: var(--color-texto);
+  line-height: 1.6;
+}
+
+/* =====================
+   LISTAS
+   ===================== */
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+  color: var(--color-texto);
+}
+
+/* =====================
+   BOTONES
+   ===================== */
+button {
+  background-color: var(--color-acento);
+  color: var(--color-blanco);
+  border: none;
+  padding: 12px 28px;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: var(--color-teal);
+}
