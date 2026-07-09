@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>PrimerPaso</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <header>
+      <nav class="navbar navbar-dark" style="background-color: #1a2744;">
+        <div class="container-fluid">
+          <span class="navbar-brand fw-bold">PrimerPaso</span>
+          <button class="navbar-toggler" type="button" 
+                  data-bs-toggle="collapse" 
+                  data-bs-target="#menuNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menuNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link text-white" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link text-white" href="#">Cursos</a></li>
+              <li class="nav-item"><a class="nav-link text-white" href="#">Oportunidades</a></li>
+              <li class="nav-item"><a class="nav-link text-white" href="#">Herramientas</a></li>
+              <li class="nav-item"><a class="nav-link" style="color: #e8177a;" href="#">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </header>
+
+  <main>
+    <section id="hero">
+      <div class="hero-contenido">
+        <div class="hero-texto">
+          <h2>Tu camino al primer<br><strong>trabajo empieza acá</strong></h2>
+          <p>Encontrá oportunidades laborales, cursos gratuitos y herramientas para arrancar tu carrera. <em>¡Tu futuro empieza acá!</em></p>
+          <div class="hero-botones">
+            <button>Explorar</button>
+            <button class="btn-secundario">Conocé más</button>
+          </div>
+        </div>
+        <div class="hero-imagen">
+          <img src="robot.png" alt="Robot con mate">
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2>📚 Cursos y capacitaciones</h2>
+    <button onclick="mostrarCursos()">Explorar</button>
+
+  <div id="contenedor-enlaces" style="display:none; margin-top: 20px;">
+    
+    <h3>Enlaces y Recursos</h3>
+    <ul>
+      <li>
+        <a href="https://www.argentina.gob.ar/jefatura/innovacion-ciencia-y-tecnologia/tics/pav" target="_blank">
+          Puntos Digitales - Innovación y Tecnología
+        </a>
+      </li>
+      <li>
+        <a href="https://app.santanderopenacademy.com/es/program/search?resourceType=SOA_COURSE" target="_blank">
+          Cursos de Santander Open Academy
+        </a>
+      </li>
+      <li>
+        <a href="https://lab.fundacionypf.org.ar/formacion-tecnica" target="_blank">
+          Formación Técnica - Fundación YPF
+        </a>
+      </li>
+      <li>
+        <a href="https://www.coursera.org/" target="_blank">
+          Coursera - Cursos en línea
+        </a>
+      </li>
+      <li>
+        <a href="https://teclab.edu.ar/" target="_blank">
+          Teclab - Instituto Técnico Superior
+        </a>
+      </li>
+    </ul>
+
+  </div>
+    </section>
+
+    <section>
+      <h2>💼 Oportunidades laborales</h2>
+      <button onclick="mostrarTrabajos()">Ver oportunidades</button>
+
+    <div id="contenedor-trabajos" style="display:none; margin-top: 20px;">
+      <ul>
+        <li style="margin-bottom: 15px;">
+          <a href="https://www.nestle.com.ar/jobs" target="_blank"><strong>Trabajá en Nestlé</strong></a><br>
+          <small>Portal oficial de oportunidades laborales de la empresa. Ofrece vacantes y programas de desarrollo para jóvenes profesionales y estudiantes.</small>
+        </li>
+        <li style="margin-bottom: 15px;">
+          <a href="https://portalempleo.gob.ar/" target="_blank"><strong>Portal Empleo</strong></a><br>
+          <small>Plataforma del Estado Nacional que conecta a los postulantes con ofertas de trabajo, becas y programas gratuitos de inserción laboral.</small>
+        </li>
+        <li style="margin-bottom: 15px;">
+          <a href="https://ar.computrabajo.com/" target="_blank"><strong>Computrabajo Argentina</strong></a><br>
+          <small>Bolsa de empleo líder en el país. Permite buscar vacantes por rubro, cargar tu CV y postularte a diversas empresas de forma rápida.</small>
+        </li>
+        <li style="margin-bottom: 15px;">
+          <a href="https://ar.linkedin.com/jobs/" target="_blank"><strong>LinkedIn Jobs</strong></a><br>
+          <small>Red social profesional orientada al empleo. Ideal para construir tu perfil digital, establecer contactos y descubrir ofertas destacadas.</small>
+        </li>
+      </ul>
+    </div>
+    </section>
+
+    <section>
+      <h2>🤖 Herramientas</h2>
+      <p>Usá inteligencia artificial para armar tu CV y prepararte para entrevistas.</p>
+      <ul>
+        <li>Armador de CV con IA</li>
+        <li>Tips para entrevistas</li>
+        <li>Simulacro de entrevista</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🧭 Test vocacional</h2>
+      <p>¿No sabés qué camino seguir? Respondé nuestro test y descubrí qué áreas se adaptan mejor a vos.</p>
+      <button id="boton-empezar" onclick="arrancarTest()">Empezar el test</button>
+     <div id="pregunta-contenedor" style="display:none;"></div>
+    <p id="texto-pregunta"><strong></strong></p>
+    <div id="opciones"></div>
+  </div>
+
+  <div id="resultado" style="display:none">
+    <h3>Tu perfil es...</h3>
+    <p id="texto-resultado"></p>
+  </div>
+    </section>
+
+    <section>
+      <h2>🤝 Networking</h2>
+      <p>Conectate con otros jóvenes que están en la misma que vos. Compartí experiencias y oportunidades.</p>
+      <button>Unirme a la comunidad</button>
+    </section>
+
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
