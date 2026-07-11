@@ -14,22 +14,6 @@
       <nav class="navbar navbar-dark" style="background-color: #1a2744;">
         <div class="container-fluid">
           <span class="navbar-brand fw-bold">PrimerPaso</span>
-          <button class="navbar-toggler" type="button" 
-                  data-bs-toggle="collapse" 
-                  data-bs-target="#menuNav">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="menuNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item"><a class="nav-link text-white" href="#">Home</a></li>
-              <li class="nav-item"><a class="nav-link text-white" href="#">Cursos</a></li>
-              <li class="nav-item"><a class="nav-link text-white" href="#">Oportunidades</a></li>
-              <li class="nav-item"><a class="nav-link text-white" href="#">Herramientas</a></li>
-              <li class="nav-item"><a class="nav-link" style="color: #e8177a;" href="#">Contacto</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
     </header>
   </header>
 
@@ -40,8 +24,8 @@
           <h2>Tu camino al primer<br><strong>trabajo empieza acá</strong></h2>
           <p>Encontrá oportunidades laborales, cursos gratuitos y herramientas para arrancar tu carrera. <em>¡Tu futuro empieza acá!</em></p>
           <div class="hero-botones">
-            <button>Explorar</button>
-            <button class="btn-secundario">Conocé más</button>
+            <button onclick="alert('Estamos trabajando para traer nuevas opciones.')">Explorar</button>
+            <button class="btn-secundario" onclick="document.getElementById('test-vocacional').scrollIntoView({behavior: 'smooth'})">Conocé más</button>
           </div>
         </div>
         <div class="hero-imagen">
@@ -123,7 +107,7 @@
       </ul>
     </section>
 
-    <section>
+    <section id="test-vocacional">
       <h2>🧭 Test vocacional</h2>
       <p>¿No sabés qué camino seguir? Respondé nuestro test y descubrí qué áreas se adaptan mejor a vos.</p>
       <button id="boton-empezar" onclick="arrancarTest()">Empezar el test</button>
