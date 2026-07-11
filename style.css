@@ -37,8 +37,8 @@ header {
 header h1 {
   color: var(--color-blanco);
   margin: 0;
-  font-size: 2rem;
-  letter-spacing: 2px;
+  font-size: 5rem  !important;
+  letter-spacing: 3px;
 }
 
 /* =====================
@@ -217,4 +217,9 @@ main section:nth-child(4) p,
 main section:nth-child(4) li {
     color: #ffffff;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+}
+
+.navbar-brand {
+  font-size: 3rem !important;
+  color: white !important;
 }
