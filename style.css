@@ -210,8 +210,6 @@ main {
   max-width: 100%;
 }
 
-
-
 main section:nth-child(4) h2,
 main section:nth-child(4) p,
 main section:nth-child(4) li {
@@ -222,4 +220,29 @@ main section:nth-child(4) li {
 .navbar-brand {
   font-size: 3rem !important;
   color: white !important;
+}
+
+#herramientas a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#herramientas a:hover {
+  color: #e8177a;
+}
+
+section a {
+  color: white !important;
+  font-weight: bold !important;
+  text-decoration: none !important;
+}
+
+section a:hover {
+  color: #e8177a !important;
+}
+
+section ul {
+  list-style: none;
+  padding-left: 0;
 }
