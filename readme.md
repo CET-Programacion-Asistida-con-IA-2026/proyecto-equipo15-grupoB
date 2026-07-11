@@ -1,65 +1,35 @@
-# PrimerPaso 🚀
+## Grupo B - Equipo {15}
+_Curso de Programación Asistida con IA - Chicas en Tecnología_ 🚀
 
-**Grupo B** (Grupo de 19 a 21hs) — Equipo 15b TEMÁTICA TRABAJO
-Curso de Programación Asistida con IA - Chicas en Tecnología
+```⚠️ Dejar la opción correcta entre Grupo A (Grupo de 17 a 19hs) y Grupo B (Grupo de 19 a 21hs) y agregar el número de equipo ⚠️```
 
----
+En este repositorio, se presenta el sitio web realizado durante el curso de programación frontend de CET.
 
-## 👩‍💻 Integrantes
+### 📄 Entregas
+**Entrega #1**: planificación de la solución y primeros resultados que obtengamos con la IA:
 
-- Mia
-- More
-- Cindy
-- Mishel
-- Fiore
+📝 Edición del Archivo README incluyendo:
+- Definición de la problemática que eligieron abordar
+- Relación con los *Objetivos de Desarrollo Sostenible (ODS)*[^1]
+- Explicación de la solución tecnológica que están desarrollando
+> [!TIP]
+> Aprovechen los [formatos del README](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) para escribir diferentes secciones
 
----
+🎨 Moodboard
 
-## 📄 Entregas
-
-### Entrega #1 — Planificación y primeros resultados
-
-#### 🔍 Problemática
-
-La falta de oportunidades laborales para jóvenes de 16 a 25 años del AMBA que buscan su primer empleo como profesionales. Muchos no saben por dónde empezar, desconocen las herramientas disponibles y no tienen acceso a redes de contacto.
-
-#### 🌍 Relación con los ODS
-
-Nuestro proyecto se relaciona con los siguientes Objetivos de Desarrollo Sostenible de la ONU:
-
-- **ODS 8 — Trabajo decente y crecimiento económico:** promovemos el acceso a oportunidades laborales, becas y capacitaciones para jóvenes sin experiencia.
-- **ODS 10 — Reducción de las desigualdades:** buscamos reducir la brecha de acceso al mercado laboral para jóvenes en situación de vulnerabilidad económica o social.
-
-#### 💡 Solución tecnológica
-
-Desarrollamos **PrimerPaso**, un sitio web one-page orientado a jóvenes que buscan su primer trabajo. El sitio incluye:
-
-- Información sobre **cursos y capacitaciones gratuitas**
-- **Oportunidades laborales**: becas, pasantías y empleos de medio tiempo
-- **Herramientas con IA**: armado de CV y simulacro de entrevistas
-- **Test vocacional** interactivo para descubrir el perfil profesional
-- Espacio de **networking** para conectarse con otros jóvenes
-
-#### 🎨 Tablero de inspiración
-
-El moodboard del proyecto combina una paleta de colores navy, magenta y teal, con tipografía moderna y un estilo profesional orientado a jóvenes.
-
-<img width="3750" height="3000" alt="_mooboard grupo 15b" src="https://github.com/user-attachments/assets/e5ccbcc5-d2a6-45fb-a7e5-9b766212cda0" />
+🧩 Archivos generados con asistencia de IA: ```index.html```, ```style.css```, ```script.js```
 
 
+**Entrega #2 (Final)**: se esperan modificaciones en el código respecto a la entrega anterior, que pueden incluir nuevos archivos o extensión de los existentes (debe haber al menos un archivo de cada lenguaje visto - HTML, CSS y Javascript)
 
-#### 🧩 Archivos generados con asistencia de IA
-
-- `index.html` [primerpaso_sin_css.html](https://github.com/user-attachments/files/28858478/primerpaso_sin_css.html)
-- `style.css` [primerpaso.css](https://github.com/user-attachments/files/28858529/primerpaso.css)
-- `script.js` [primerpaso.js](https://github.com/user-attachments/files/28858548/primerpaso.js)
-
----
-
-### Entrega #2 (Final)
-
-> 🔄 En progreso — próximamente se registrarán los cambios realizados al código.
-
+💡 Es una buena idea llevar un registro de lo que cambiamos. Por ejemplo
 ```
-- (pendiente de completar)
+- Agregamos Bootstrap para el carrousel de imágenes...
+- Modificamos el texto de la sección de bienvenida...
+- Transformamos los textos sobre redes sociales en links...
 ```
+
+Ahora si, ¡A programar! 🚀
+
+
+[^1]: Los Objetivos de Desarrollo Sostenible u Objetivos Globales, también conocidos como Agenda 2030, son 17 objetivos globales interconectados diseñados para ser un «plan para lograr un futuro mejor y más sostenible para todos». Más información en https://www.un.org/sustainabledevelopment/es/objetivos-de-desarrollo-sostenible/
