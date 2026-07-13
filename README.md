@@ -28,7 +28,7 @@ Espacio de networking para conectarse con otros jóvenes
 <img width="1500" height="1200" alt="_mooboard e iconos  grupo 15b (2)" src="https://github.com/user-attachments/assets/cdccc550-33bf-48aa-8f0a-41ce8023d0aa" />
 
 
-🧩 Archivos generados con asistencia de IA: ```index.html```, ```style.css```, ```script.js```
+🧩 Archivos generados con asistencia de IA: ```index.html ```, ```style.css```, ```script.js```
 
 
 **Entrega #2 (Final)**: se esperan modificaciones en el código respecto a la entrega anterior, que pueden incluir nuevos archivos o extensión de los existentes (debe haber al menos un archivo de cada lenguaje visto - HTML, CSS y Javascript)
@@ -43,9 +43,9 @@ Espacio de networking para conectarse con otros jóvenes
 - Agregamos el botón "Unirme a la comunidad" con link al grupo de LinkedIn
 - Mejoramos el texto del hero con frase de bienvenida y llamada a la acción
 
-```
-
- 🚀
+🌐 Sitio web: https://cet-programacion-asistida-con-ia-2026.github.io/proyecto-equipo15-grupoB/
+🤝 Comunidad LinkedIn: https://www.linkedin.com/groups/32700106/
+🚀
 
 
 [^1]: Los Objetivos de Desarrollo Sostenible u Objetivos Globales, también conocidos como Agenda 2030, son 17 objetivos globales interconectados diseñados para ser un «plan para lograr un futuro mejor y más sostenible para todos». Más información en https://www.un.org/sustainabledevelopment/es/objetivos-de-desarrollo-sostenible/
